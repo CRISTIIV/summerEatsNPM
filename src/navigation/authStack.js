@@ -14,6 +14,8 @@ import MyAccountScreen from "../screens/MyAccountScreen";
 const Auth = createStackNavigator();
 
 export default function AuthStack() {
+
+
     return(
         <Auth.Navigator>
             <Auth.Screen

@@ -99,8 +99,8 @@ export default function SignInScreen({ navigation }) {
                                     title="INICIAR SESIÓN"
                                     buttonStyle={parameters.styledButton}
                                     titleStyle={parameters.buttonTitle}
-                                    onPress= 
-                                    {props.handleSubmit}
+                                    onPress= {navigation.navigate("RootClientTabs")}
+                                    //{props.handleSubmit}
                                 />
                             </View>
                         </View>
