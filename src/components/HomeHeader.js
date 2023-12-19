@@ -51,6 +51,7 @@ const styles = StyleSheet.create({
         //paddingHorizontal: 20,
     },
     container: {
-        backgroundColor: colors.turquoise
+        backgroundColor: colors.turquoise,
+        marginTop: 40,
     }
 });

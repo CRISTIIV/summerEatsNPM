@@ -8,15 +8,15 @@ import RootNavigator from "./src/navigation/RootNavigator";
 
 export default function App() {
   return (
-    <View style = {styles.container}>
-      <StatusBar 
-        barStyle = "light-content" 
-        backgroundColor = {colors.turquoise}
-        />
+      <View style = {styles.container}>
+        <StatusBar 
+          barStyle = "light-content" 
+          backgroundColor = {colors.turquoise}
+          />
 
-        <RootNavigator />
+          <RootNavigator />
 
-    </View>
+      </View>
   );
 }
 

@@ -10,16 +10,16 @@ export const filterData = [{ name: "Rápida", image: require('../assets/images/h
 
 export const filterData2 = [{ name: "Rápida", image: 'https://img.freepik.com/foto-gratis/hamburguesa-ternera-plancha-patatas-fritas-queso-tomate-ia-generativa_188544-8466.jpg?w=1800&t=st=1701806512~exp=1701807112~hmac=60e7aad05a3b1ca758075d4be69db21a524b61ea609372c38e85136103ad17b1', id: "0" },
 { name: "Bebidas", image: 'https://img.freepik.com/foto-gratis/bebidas-gaseosas-coloridas-macro-disparo_53876-32239.jpg?w=1800&t=st=1701806647~exp=1701807247~hmac=7ef628972c4eaea017de0f7b637b1e3add99654af1e61284607a50a092ab0ad4', id: "1" },
-{ name: "Del mar", image: "https://img.freepik.com/foto-gratis/vista-superior-apetitosa-mezcla-mariscos-mesa-madera_181624-428010jpg?w=1380&t=st=1701806700~exp=1701807300~hmac=2e4e47f1c12c88c5b8069d8b3b9bbfd0a3d82e785bae79180c8e8b1b3008ecae", id: "2" },
-{ name: "Postres", image: "https://img.freepik.com/foto-gratis/juego-te-nueces-postre-plato-sobre-fondo-blanco-madera-vista-lateral_176474-38410jpg?w=1380&t=st=1701806766~exp=1701807366~hmac=888baacdcf3d34a311efcf78030b83611e96a612baa6221ce2ad755cc4103125", id: "3" },
-{ name: "Mercado", image: "https://img.freepik.com/foto-gratis/vista-cerca-carro-compra-sobrecargado-comida-mientras-que-fondo-persona-femenina-elige-productos_342744-11310jpg?w=1800&t=st=1701806817~exp=1701807417~hmac=68700eed7eac8997cf882d51d9cf947543f254e6a9cad222ee96af5e855c3de0", id: "4" },
+{ name: "Del mar", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Plateau_van_zeevruchten.jpg/1200px-Plateau_van_zeevruchten.jpg", id: "2" },
+{ name: "Postres", image: "https://www.recetasnestle.cl/sites/default/files/srh_recipes/f5aa928f0ad5b5d1a1a33bcb863ecf33.jpg", id: "3" },
+{ name: "Mercado", image: "https://static.wixstatic.com/media/d1b397_68a51ebf48af4652a51de223a9ade5a1~mv2.jpg/v1/fill/w_640,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d1b397_68a51ebf48af4652a51de223a9ade5a1~mv2.jpg", id: "4" },
 { name: "Farmacia", image: "https://img.freepik.com/foto-gratis/tratamiento-medico-pastillas_23-2148108921.jpg?w=900&t=st=1701806898~exp=1701807498~hmac=6481c947efae4c726a32a6da03d685aa81992a23ffb67d6153239e45ede42f40", id: "5" },
 ];
 
 export const foodCartData = [
     {
         restaurantName: "Mc Donald's - Sand Cart", farAway: "21.2", businessAddress: "Playa La Herradura",
-        images: 'https://z-p3-scontent.flsc2-1.fna.fbcdn.net/v/t39.30808-6/241347319_4255460921212445_7547948780137886065_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeEOEK6a56e9aq_PkRyb58E5LhPDgklGIlYuE8OCSUYiVm7RyVloH7pSsPrimbyO6yY&_nc_ohc=eTIVSXOXPIMAX8QxAU6&_nc_zt=23&_nc_ht=z-p3-scontent.flsc2-1.fna&oh=00_AfCnsW57sed6RpSmQtYxR1rVLU5Ej2qDpIsudJtc-j9raw&oe=656F038A',
+        images: 'https://welovesand.com/wp-content/uploads/2020/02/macdonalds-video.jpg',
         averageReview: 4.9, numberOfReview: 272, coordinates: { lat: -26.1888612, lng: 210246325 },
         discount: 10, deliveryTime: 15, collectTime: 5, foodType: "Hamburguesas, Papas Fritas, Nuggets...",
         productData: [{ name: "Hamburguesa Marina", price: 6000, image: 'https://i.dailymail.co.uk/1s/2022/01/10/23/52772527-0-image-a-112_1641855941475.jpg' },
@@ -28,11 +28,11 @@ export const foodCartData = [
 
     {
         restaurantName: "El Oriente - Beach Flavors", farAway: "12.7", businessAddress: "Playa La Herradura",
-        images: 'https://z-p3-scontent.flsc2-1.fna.fbcdn.net/v/t39.30808-6/341092279_594863352570120_8763751210877218608_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFpNBeYp3Drs_BwulBIJvIIcyo9UysmloRzKj1TKyaWhGmMZswdtSWbVrKVCttpdAo&_nc_ohc=arc4G_m_N6oAX_j_Zrh&_nc_zt=23&_nc_ht=z-p3-scontent.flsc2-1.fna&oh=00_AfBYhQaXRxY9sfSVSVSZyL1poJayy7n25dAycO5cLShjCA&oe=656E3381',
+        images: 'https://completosoriente.cl/wp-content/uploads/2022/09/oriente22.jpg',
         averageReview: 4.9, numberOfReview: 306, coordinates: { lat: -26.1891648, lng: 2102441808 },
         discount: 20, deliveryTime: 30, collectTime: 10, foodType: "Completos, Sandwiches, Limonadas... ",
         productData: [{ name: "Completo Marino", price: 3000, image: 'https://completosoriente.cl/wp-content/uploads/2022/09/oriente22.jpg' },
-        { name: "Sandwich Marino", price: 3500, image: 'https://completosoriente.cl/wp-content/uploads/2022/09/oriente14jpg' }], id: 1
+        { name: "Sandwich Marino", price: 3500, image: 'https://completosoriente.cl/wp-content/uploads/2022/09/oriente15.jpg' }], id: 1
     },
 
     {

@@ -13,10 +13,7 @@ export default function SignInWelcomeScreen({ navigation }){
     return(
         <ScrollView contentContainerStyle = {{flexGrow: 1,justifyContent: 'space-between'}} >
             <View style = {{flex: 1}}>
-                <Header 
-                    //title = "Mi Cuenta"
-                    //type = "backburger"
-                />
+                <Header />
                 <View style = {{justifyContent: "flex-start", alignItems: "center", paddingVertical: 80}}>
                     <Text style = {{fontSize: 23, color: colors.turquoise, fontWeight: "bold"}}>DESCUBRE CARRITOS Y LOCALES</Text>
                     <Text style = {{fontSize: 23, color: colors.turquoise, fontWeight: "bold"}}>EN TU PLAYA</Text>

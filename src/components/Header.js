@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
     subtitle: subTitleText,
 
     container:{
-        backgroundColor: colors.turquoise
+        backgroundColor: colors.turquoise,
+        marginTop: 40,
     }
 });
